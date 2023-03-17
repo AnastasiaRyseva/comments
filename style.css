@@ -1,0 +1,68 @@
+body {
+    background: -webkit-linear-gradient(90deg,#002a5a,#0155c1,#8f36c0); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(90deg,#002a5a,#0155c1,#8f36c0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+}
+#container {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    background-color: bisque;
+    opacity: 90%;
+    border-radius: 30px;
+}
+.comment-form {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(48, 48, 105);
+}
+.form-group {
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+}
+.form-group > input {
+    margin-left: 30px;
+}
+.form-group > textarea {
+    margin-left: 36px;
+}
+.comments {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.comment {
+    margin-top: 15px;
+}
+.comment-name {
+    color: brown;
+    font-size: 18px;
+}
+.message {
+    font-size: 15px;
+}
+.comment-date, .comments-time {
+    font-size: 12.5px;
+}
+.comment-reaction {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: flex-end;
+}
+
+.like {
+    width: 25px;
+    height: 25px;
+}
+.danger {
+    color: red;
+    margin-top: 10px;
+}
+.error {
+    font-size: 10px;
+    color: red;
+    margin-left: 10px;
+}
